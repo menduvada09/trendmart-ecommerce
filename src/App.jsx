@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import CartPage from "./pages/CartPage";
 import WishlistPage from "./pages/WishlistPage";
-import LoginPage from "./pages/LoginPage";
+import LoginPage from "./pages/loginPage";
 
 export default function App() {
   return (
