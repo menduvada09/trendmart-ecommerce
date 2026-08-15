@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import PrivacyModal from "./privacyModal";
+import PrivacyModal from "./PrivacyModal";
 
 export default function Footer() {
   const [modalOpen, setModalOpen] = useState(false);
