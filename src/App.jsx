@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Dashboard from "./pages/dashboard";
-import ProductDetailPage from "./pages/ProductDetailPage";
-import CartPage from "./pages/CartPage";
-import WishlistPage from "./pages/WishlistPage";
-import LoginPage from "./pages/loginPage";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import ProductDetailPage from "./pages/ProductDetailPage.jsx";
+import CartPage from "./pages/CartPage.jsx";
+import WishlistPage from "./pages/WishlistPage.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
 
 export default function App() {
   return (
